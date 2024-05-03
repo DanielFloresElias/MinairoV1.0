@@ -1,0 +1,15 @@
+https://tienda.bricogeek.com/convertidores-de-voltaje/1650-regulador-dc-dc-12-24v-a-5v-5a.html?search_query=dc%2Fdc&results=195
+
+
+
+Características:
+
+Voltaje de entrada: 12 a 24V
+Voltaje de salida: 5V
+Corriente de salida: 5A max
+Eficiencia: 90%
+Ripple: 150mA (p-p)
+Corriente sin carga: 15mA
+Protección con sobre corriente y sobre voltaje.
+Dimensiones: 63x32x18mm
+Peso: 65 gramos

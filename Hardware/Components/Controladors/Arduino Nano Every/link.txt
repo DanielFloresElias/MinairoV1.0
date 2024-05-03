@@ -1,0 +1,1 @@
+https://docs.arduino.cc/hardware/nano-every

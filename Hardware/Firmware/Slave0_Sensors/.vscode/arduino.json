@@ -1,0 +1,7 @@
+{
+    "port": "COM5",
+    "configuration": "mode=on",
+    "board": "arduino:megaavr:nona4809",
+    "programmer": "arduino:medbg",
+    "sketch": "Master_CatSkillRob.ino"
+}

@@ -1,0 +1,7 @@
+{
+    "port": "COM3",
+    "configuration": "mode=on",
+    "board": "arduino:megaavr:nona4809",
+    "programmer": "arduino:medbg",
+    "sketch": "Slave2_Periferials.ino"
+}
