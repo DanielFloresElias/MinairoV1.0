@@ -8,6 +8,7 @@ Para manejar al MINAIRÓ se ha desarollado la libreria **Minairo_TCP.py**. En es
 ### Métodos para comunicaciones: [->](#item1)
 ```
 - MinairoSocket(IP,port)
+- connect():
 - run():
 - transmit():
 - stop():
@@ -87,6 +88,66 @@ if __name__=="__main__":
     sleep(0.5)
     Robot.close()
 ```
+---
+### `run()`
+#### Descripción
+El método *run()*, se conecta mediante el *socket* TCP/IP con el robot, e inicia la comunicación bidireccional ciclica entre el robot i su instancia de python.
+El periodo de *polling* se establece mediante el método: *setPullingTime(value)* por defecto 25ms.
 
+#### Sintaxis
 
+```
+run()
+```
+
+#### Paràmetros
+Sin parámetros.
+
+#### Ejemplo
+
+```
+from Minairo_TCP import *
+from time import sleep
+
+if __name__=="__main__":
+    IP = '192.168.1.1'
+    port = 22
+    Robot = MinairoSocket(IP,port)
+    Robot.run()
+    Robot.setX(0.1)
+    sleep(2)
+    Robot.stop()
+```
+---
+### `transmit()`
+#### Descripción
+El método *transmit()*, realiza una única comunicación bidireccional entre el robot i su instancia de python.En primer lugar transfiere el *OutBuffer* con todos los datos en *RAW* de control al MINAIRÓ, y seguidamente recibe el *InBuffer* con todos los datos en *RAW* procedentes de los sensores.
+
+#### Sintaxis
+
+```
+transmit()
+```
+
+#### Paràmetros
+Sin parámetros.
+
+#### Ejemplo
+
+```
+from Minairo_TCP import *
+from time import sleep
+
+if __name__=="__main__":
+    IP = '192.168.1.1'
+    port = 22
+    Robot = MinairoSocket(IP,port)
+    Robot.connect()
+    Robot.setX(0.1)
+    Robot.transmit()
+    sleep(2)
+    Robot.setX(0.0)
+    Robot.transmit()
+    Robot.close()
+```
 

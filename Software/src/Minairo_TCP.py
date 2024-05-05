@@ -186,7 +186,7 @@ class MinairoSocket():
     def connect(self):
         self.obj.connect((self.host,self.port))
 
-
+ 
     def buidarSocket(self):
         while 1:
             s = self.obj.recv(1).decode()
@@ -206,7 +206,6 @@ class MinairoSocket():
         return self.InString
 
     def close(self):
-        self.thread_runs = False
         self.obj.close()
         print (f"Minairo 1.0 en host:{self.host} desconectado")
 
@@ -229,6 +228,7 @@ class MinairoSocket():
         self.OutBuffer[9] = Vw[1]
         self.OutBuffer[10] = Vw[2]
         self.OutBuffer[11] = Vw[3]
+        self.thread_runs = False
 
     def run(self):
         self.thread_runs = True
@@ -240,8 +240,8 @@ class MinairoSocket():
             self.transmit()
             Timer(self.pullingTime, self.transmitCyclic).start()
         else:
+            self.transmit()
             self.obj.close()
-            print (f"Minairo 1.0 en host:{self.host} desconectado")
 
     def transmit(self):
         ################# c m d _ R A W #################
