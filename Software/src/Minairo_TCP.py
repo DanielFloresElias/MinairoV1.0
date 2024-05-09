@@ -213,21 +213,7 @@ class MinairoSocket():
         self.X = 0.0
         self.Y = 0.0
         self.W = 0.0
-        Vx = pack('f', self.X)
-        Vy = pack('f', self.Y)
-        Vw = pack('f', self.W)
-        self.OutBuffer[0] = Vx[0]
-        self.OutBuffer[1] = Vx[1]
-        self.OutBuffer[2] = Vx[2]
-        self.OutBuffer[3] = Vx[3]
-        self.OutBuffer[4] = Vy[0]
-        self.OutBuffer[5] = Vy[1]
-        self.OutBuffer[6] = Vy[2]
-        self.OutBuffer[7] = Vy[3]
-        self.OutBuffer[8] = Vw[0]
-        self.OutBuffer[9] = Vw[1]
-        self.OutBuffer[10] = Vw[2]
-        self.OutBuffer[11] = Vw[3]
+        self.setOutBuffer()
         self.thread_runs = False
 
     def run(self):
