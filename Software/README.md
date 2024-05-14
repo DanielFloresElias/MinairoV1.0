@@ -91,7 +91,7 @@ if __name__=="__main__":
 ---
 ### `run()`
 #### Descripción
-El método *run()*, se conecta mediante el *socket* TCP/IP con el robot, e inicia la comunicación bidireccional ciclica entre el robot i su instancia de python.
+El método *run()*, se conecta mediante el *socket* TCP/IP con el robot, e inicia la comunicación bidireccional ciclica entre el robot y su instancia de python.
 El periodo de *polling* se establece mediante el método: *setPullingTime(value)* por defecto 25ms.
 
 #### Sintaxis
@@ -121,7 +121,7 @@ if __name__=="__main__":
 ---
 ### `transmit()`
 #### Descripción
-El método *transmit()*, realiza una única comunicación bidireccional entre el robot i su instancia de python.En primer lugar transfiere el *OutBuffer* con todos los datos en *RAW* de control al MINAIRÓ, y seguidamente recibe el *InBuffer* con todos los datos en *RAW* procedentes de los sensores.
+El método *transmit()*, realiza una única comunicación bidireccional entre el robot y su instancia de python.En primer lugar transfiere el *OutBuffer* con todos los datos en *RAW* de control al MINAIRÓ, y seguidamente recibe el *InBuffer* con todos los datos en *RAW* procedentes de los sensores.
 
 #### Sintaxis
 

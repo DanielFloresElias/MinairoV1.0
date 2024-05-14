@@ -1,0 +1,6 @@
+Imprimir l'Archivo "BaseRoda80mm.stl" con sporte.
+Para imprimir el "Rodillo80mm_coixinet11mm.stl" se recomienda material elástico tipo TPU
+
+Instrucciones de montaje:
+https://youtu.be/-isGLo6HXTg?si=e-eoqbGDwvESLj3n
+

@@ -1,0 +1,40 @@
+					        █╗
+					       █╔╝
+					       ╚╝
+███╗   ███╗██╗███╗   ██╗ █████╗ ██╗██████╗  ██████╗      ██╗    ██████╗ 
+████╗ ████║██║████╗  ██║██╔══██╗██║██╔══██╗██╔═══██╗    ███║   ██╔═████╗
+██╔████╔██║██║██╔██╗ ██║███████║██║██████╔╝██║   ██║    ╚██║   ██║██╔██║
+██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║██╔══██╗██║   ██║     ██║   ████╔╝██║
+██║ ╚═╝ ██║██║██║ ╚████║██║  ██║██║██║  ██║╚██████╔╝     ██║██╗╚██████╔╝
+╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝      ╚═╝╚═╝ ╚═════╝ 
+        __  ___   ___      ___                          ___               __        ___ ___                         __  
+| |\ | /__`  |  |  |  |  |  |        |  /\  |  |  |\/| |__     |__| |  | / _` |  | |__   |     \  /  /\  |    |    /__` 
+| | \| .__/  |  |  |  \__/  |     \__/ /~~\ \__/  |  | |___    |  | \__/ \__> \__/ |___  |      \/  /~~\ |___ |___ .__/ 
+                                                                                                                                                                                              
+
+1x Roda ominidreccional:
+	Impressió PLA:
+		- 2x "BaseRoda80mm.stl"
+		- 2x "BaseRoda80mm_B.stl"
+	Impressió TPU:
+		- 6x "Rodillo80mm_coixinet11mm.stl"
+	Ferreteria:
+		- 12x Tornillo Hallen M3 16mm
+		- 9x Tuerca M3
+		- 6x Barilla roscada M5 49mm
+		- 12x Arandela M5
+		- 12x cojinete MR115-2RS (11x5x4)
+		- 1x  eje 6 mm / M3 de Pololu 1999 (https://www.pololu.com/product/1999)
+Electrico:
+	MUCHOS DE ESTOS COMPONENTES SE PUEDEN ADQUIRIR EN WWW.BRICOGEEK.COM
+	- 3x Motor:  Motor con reductora 70:1 con encoder de Pololu 4754 (https://www.pololu.com/product/4754)
+	- 2x Driver Motor: Dual VNH5019 Motor Driver Shield for Arduino (https://www.pololu.com/product/2507)
+	- 3x Arduino Nano Every de Arduino ABX00028
+	- 1x Regulador DC-DC 12-24V a 5V (5A) de BricoGeek (https://tienda.bricogeek.com/convertidores-de-voltaje/1650-regulador-dc-dc-12-24v-a-5v-5a.html?search_query=convertidor&results=23)
+	- 1x Conector XT60 batería.
+	- 2x Bateria tipo CONGA 14,4V Li-Ion
+	- 4x Sensor de distancia 2-15cm - Sharp GP2Y0A51SK0F de Pololu 2450 (2-150mm) / Sensor de proximidad Sharp GP2Y0A21YK de Pololu 136 (100-800mm)
+	- 1x Array de sensores infrarrojos QTR-8RC (Digital) (https://www.pololu.com/product/961)
+	- 1x ESP32 Wroom WIFI + Bluetooth (https://tienda.bricogeek.com/arduino-compatibles/1274-esp32-wroom-wifi-bluetooth.html?search_query=esp32&results=48)
+	- 1x 4 Channel IIC I2C Logic Level Converter Bi-Directional Module 5V to 3.3V For Arduino (https://www.amazon.es/dp/B06Y5KKMLL?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+		
